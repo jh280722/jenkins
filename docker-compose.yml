@@ -5,7 +5,7 @@ services:
     container_name: jenkins
     environment:
       - TZ=Asia/Seoul
-      - JAVA_OPS=-Xmx1g
+      - JAVA_OPS=-Xmx2g
     volumes:
       - ~/jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
